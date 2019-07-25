@@ -192,11 +192,25 @@ body {
 .deposit {
 	text-align: center;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
 	border: 1px solid #e6e6e6;
 	border-radius: 3%;
 	max-width: 600px;
 	max-height: 600px;
 }
 
+.border-top-gold {
+	border-top: 4px solid #ffcc00;
+	
+}
+
+.absolute {
+	position: absolute;
+	top: 80%;
+	left: 40%;
+  	color: #ffcc00;
+}
 
 
