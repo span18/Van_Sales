@@ -140,7 +140,7 @@ body {
 	font-weight: 600;
 }
 
-					/* DEPOSIT OFFER */
+										/* DEPOSIT OFFER */
 
 .deposit {
 	text-align: center;
@@ -204,4 +204,26 @@ body {
 .dropdown-menu {
 	width: 300px;
 	text-align: center;
+}
+
+								/* MEET THE TEAM */
+
+
+.team-container {
+	max-width: 100%;
+	
+}
+
+.left-column {
+	flex: 50%;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+}
+
+.right-column {
+	flex: 50%;
+	width: 50%;
+	display: flex;
+	flex-direction: row;
 }
