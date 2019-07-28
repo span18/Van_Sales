@@ -1,6 +1,5 @@
 * { 
 	box-sizing: border-box;
-	padding: 0;
 	margin: 0;
 }
 
@@ -208,22 +207,60 @@ body {
 
 								/* MEET THE TEAM */
 
-
-.team-container {
-	max-width: 100%;
-	
+.positioning {
+	margin-left: 50px;
 }
 
-.left-column {
-	flex: 50%;
-	width: 50%;
-	display: flex;
-	flex-direction: row;
+.row { 
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
-.right-column {
-	flex: 50%;
-	width: 50%;
-	display: flex;
-	flex-direction: row;
+.column {
+  float: left;
+  width: 48%;
+  /*padding: 10px;*/
+  height: 300px;
+  border: 3px solid red;
+  margin-left: 5px;
+  margin-bottom: 5px;
 }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+	.row, .column {
+		width: 90%;
+	}
+}
+
+.image_meet_the_team {
+    width: 100%;
+    height: 80%;
+    background-image: url("../images/meet_the_team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}​
+
+.warranty {
+    width: 50%;
+    height: 50%;
+    background-image: url("../images/meet_the_team.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}​
+
+.image3 {
+    width: 100%;
+    height: 80%;
+    background-image: url("../images/finance.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}​
