@@ -76,19 +76,20 @@ body {
 										/* LOGO, TEL NUM ETC */
 .container {
 	font-family: 'Arial Black',Gadget,sans-serif;
-	width: 100%;
-	height: auto;
+	max-width: 100%;
+	max-height: 145px;
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	text-transform: uppercase;
+	background-color: rgba(255, 0, 0, 0.2);
 }
 
 .col-35 {
 	flex: 100%;
-	width: 100%;
+	max-width: 100%;
 	padding-top: 10px;
 	padding-right: 30px;
 	margin-left: 0;
@@ -112,22 +113,43 @@ body {
 
 .tel {
 	flex: 90%;
-	width: 90%;
-	text-align: center;
-	padding-top: 10px;
+	max-width: 90%;
+	text-align: left;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+	display: block;
+	padding-bottom: 35PX;
 
 }
 
 #padding {
+	display: block;
 	padding-left: 200px;
 	padding-right: 200px;
-	width: 600px;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 28px;
 }
+
+.position {
+	padding-left: 65px;
+}
+
+.fa {
+	font-size: 65px;
+	float: left;
+	color: red;
+	padding-right: 8px;
+}
+
+.material-icons {
+	font-size: 65px;
+	float: left;
+	color: red;
 }
 
 										/* DEPOSIT OFFER */
