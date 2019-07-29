@@ -7,20 +7,24 @@ body {
 	margin: auto;
 }
 
-.navbar {
-	max-width: 100%;
-	text-align: center;
-}
 .main-nav {
 	max-width: 100%;
 	list-style-type: none;
+	text-decoration: none;
 	display: none;
-	text-align: center;
+    display: flex;
 }
 
 .main-nav li {
-	margin: 15px auto;
-	font-family: "Lato", sans-serif;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: black;
+}
+
+#home {
+	color: red;
+	border-left: 5px solid red;
 }
 
 .navbar-toggle {
@@ -28,7 +32,7 @@ body {
 	top: 10px;
 	right: 20px;
 	cursor: pointer;
-	color: rgba(255, 255, 255, 0.8);
+	/*color: rgba(255, 255, 255, 0.8);*/
 	font-size: 24px;
 }
 
@@ -36,44 +40,36 @@ body {
 	display: block;
 }
 
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
 .navbar {
-	font-size: 18px;
-	background-color: rgba(250, 250, 250, 0.8);
+	max-width: 100%;
+	font-size: 22px;
+	/*background-color: rgba(255, 0, 0, 0.8);*/
 	box-shadow: 0px 3px 8px #e6e6e6;
-	display: flex;
-	justify-content: space-between;
 	padding-bottom: 0;
-	height: 70px;
-	align-items: center;
-}*/
-
-.main-nav {
-    display: flex;
-	margin-right: 30px;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.main-nav li {
-    margin: 0;
+	display: flex;
+	justify-content: center;
 }
 
 .nav-links {
-	margin-left: 40px;
+	padding-left: 50px;
 }
 
 .navbar-toggle {
 	display: none;
 }
 
-.logo:hover,
+.navbar a {
+	text-decoration: none;
+	color: inherit;
+}
 
 .nav-links:hover {
-	color: rgba(255, 255, 255, 1);
+	color: red;
 		}
 	}
+										
 										/* LOGO, TEL NUM ETC */
 .container {
 	font-family: 'Arial Black',Gadget,sans-serif;
@@ -85,8 +81,12 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	text-transform: uppercase;
-	background-color: rgba(255, 0, 0, 0.4);
 }
+
+.container a {
+	text-decoration: none !important;
+}
+
 
 .col-35 {
 	flex: 100%;
@@ -172,12 +172,6 @@ body {
 	
 }
 
-.absolute {
-	position: absolute;
-	top: 125%;
-	left: 35%;
-  	color: #ffcc00;
-}
 
 										/* SEARCH MENU */
 .search-bar {
@@ -223,6 +217,7 @@ body {
 
 .positioning {
 	margin-left: 50px;
+	padding-top: 25px;
 }
 
 .row { 
