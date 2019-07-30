@@ -219,41 +219,44 @@ body {
 
 #slideshow {
   overflow: hidden;
-  width: 700px;
+  max-width: 1000px;
   height: 300px;
   margin: 0 auto;
   border: 5px solid black;
 }
 
 .slide-wrapper {
-  width: 2912px;
+  width: 3200px;
   -webkit-animation: slide 18s ease infinite;
 }
 
 .slide {
   float: left;
-  max-width: 80%;
+  margin-right: 200px;
+  max-width: 800px;
   max-height: 300px;
   background-color: red;
 }
 
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}
-  30% {margin-left: -728px;}
-  50% {margin-left: -728px;}
-  60% {margin-left: -1456px;}
-  70% {margin-left: -1456px;}
-  80% {margin-left: -2184px;}
-  90% {margin-left: -2184px;}
+  30% {margin-left: -1000px;}
+  50% {margin-left: -1000px;}
+  60% {margin-left: -2000px;}
+  70% {margin-left: -2000px;}
+  80% {margin-left: -3000px;}
+  90% {margin-left: -3000px;}
 }
 
 .slide-text {
 	position: absolute;
-	top: 50px;
-	left: 100px;
+	top: 1600px;
+	left: 500px;
 	color: red;
 	font-size: 50px;
 }
+
+
 								/* MEET THE TEAM */
 
 .positioning {
