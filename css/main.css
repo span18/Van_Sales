@@ -22,11 +22,6 @@ body {
     color: black;
 }
 
-#home {
-	color: red;
-	border-left: 5px solid red;
-}
-
 .navbar-toggle {
 	position: absolute;
 	top: 10px;
@@ -74,6 +69,7 @@ body {
 										/* LOGO, TEL NUM ETC */
 .container {
 	font-family: 'Arial Black',Gadget,sans-serif;
+	color: black;
 	max-width: 100%;
 	max-height: 145px;
 	margin: 0;
@@ -87,6 +83,7 @@ body {
 
 .container a {
 	text-decoration: none !important;
+	color: red;
 }
 
 
@@ -123,8 +120,7 @@ body {
 	font-size: 25px;
 	line-height: 30px;
 	display: block;
-	padding-bottom: 35PX;
-
+	padding-bottom: 35px;
 }
 
 #padding {
@@ -222,6 +218,10 @@ body {
 	text-align: center;
 }
 
+.column:nth-child(1):hover {
+	background-color: white;
+}
+
 .text-positioning {
 	text-align: left;
 	padding-left: 15px;
@@ -249,7 +249,6 @@ body {
 	height: 100%; 
 	display: inline-block;
 	text-align: left;
-	vertical-align: center;
 	font-size: 200px;
 	font-weight: 700;
 }
@@ -265,6 +264,7 @@ body {
 	height: 100%;
 	border: 1px solid #f1f1f1;
 	perspective: 1000px;
+	cursor: pointer;
 }
 
 .flip-box-inner {
@@ -293,10 +293,16 @@ body {
 }
 
 .flip-box-back {
-  background-color: white;
-  color: black;
-  padding: 15px;
-  transform: rotateY(180deg);
+	font-size: 25px;
+	letter-spacing: 1px;
+	background-color: white;
+	color: black;
+	padding: 15px;
+	transform: rotateY(180deg);
+}
+
+.flip-box-back a {
+	font-weight: 700;
 }
 								/* SHAKE DISCOUNT ELEMENT */
 /*#shk {
@@ -419,6 +425,21 @@ body {
 	border: 4px solid rgba(255, 0, 0, 0.6);
 }
 
+.column a {
+	color: red;
+	text-decoration: none;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.column:hover {
+	background-color: rgba(255, 0, 0, 0.6);
+}
+
+.center {
+	padding-top: 8px;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
