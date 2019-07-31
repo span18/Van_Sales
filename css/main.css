@@ -4,7 +4,6 @@
 
 body {
 	/*background-color: none;*/
-	font-family: 'Arial Black',Gadget,sans-serif;
 	margin: auto;
 }
 
@@ -218,8 +217,26 @@ body {
 								/* WELCOME MESSAGE */
 
 #font-style {
-	letter-spacing: 0.2px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+	text-align: center;
+}
+
+.text-positioning {
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	font-weight: 600;
+}
+
+.text-positioning:nth-child(1) {
 	color: red;
+	letter-spacing: 2px;
+	font-weight: 800;
+	font-size: 35px
+	padding-top: 50px;
+
 }
 
 .bold {
@@ -278,6 +295,7 @@ body {
 .flip-box-back {
   background-color: white;
   color: black;
+  padding: 15px;
   transform: rotateY(180deg);
 }
 								/* SHAKE DISCOUNT ELEMENT */
@@ -389,14 +407,16 @@ body {
 }
 
 .column {
-  float: left;
-  width: 48%;
-  /*padding: 10px;*/
-  height: 300px;
-  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
-  margin-left: 10px;
-  margin-bottom: 20px;
-  margin-right: 10px;
+	float: left;
+	width: 48%;
+	/*padding: 10px;*/
+	height: 300px;
+	box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+	margin-left: 10px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	background-color: white;
+	border: 4px solid rgba(255, 0, 0, 0.6);
 }
 
 /* Clear floats after the columns */
@@ -419,14 +439,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }​
-
-.column {
-	background-color: white;
-}
-
-.column:hover {
-	background-color: rgba(255, 0, 0, 0.6);
-}
 
 footer {
 	width: 100%;
@@ -451,11 +463,6 @@ footer {
   float: left;
   height: 300px;
   width: 800px;
-  border: 5px solid black;
-}
-
-img {
-	border: 5px solid red;
 }
 
 .slide-number {
