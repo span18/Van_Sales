@@ -668,7 +668,7 @@ footer {									/* FOOTER */
 	background-color: rgb(255, 0, 0, 0.5);
 	text-align: center;
 	font-family: "Lato", sans-serif;
-	box-shadow: inset 0 7px 20px -10px #000;
+	box-shadow: inset 0 7px 20px -10px rgb(255, 0, 0);
 }
 
 footer a {
@@ -682,7 +682,7 @@ footer a {
 	padding-left: 25px;
 	border-right: 2px solid #fff;
 	list-style-type: none;
-	
+
 }
 
 @media screen and (max-width: 450px) {
