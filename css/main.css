@@ -7,6 +7,15 @@ body {
 	margin: auto;
 }
 
+.navbar {
+	border-bottom: 5px solid rgba(255, 0, 0, 0.5);
+}
+
+li:hover {
+	background-color: #ff0f0f;
+	border-radius: 15%;
+}
+
 .main-nav {
 	text-align: center;
 	list-style-type: none;
@@ -20,19 +29,21 @@ body {
 	color: #000;
 	font-size: 25px;
 }
-	.fa-bars {
+.fa-bars {
 	position: absolute;
-	top: 100px;
-	left: 260px;
-	}
+	top: 11.8%;
+	left: 90%;
+}
 											/* END */
 
 .navbar a {
 	text-decoration: none;
 	color: #000;
 	letter-spacing: 1.5px;
-	font-family: 'Arial Black',Gadget,sans-serif;
 	font-size: 20px;
+	padding: 9px 18px 9px 18px;
+	font-family: "Lato", sans-serif;
+	font-weight: 500;
 }
 
 .active {
@@ -50,19 +61,10 @@ body {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
-	padding-bottom: 8px;
 	padding-left: 0;
 }
 
 										/* END */
-li a {
-	text-decoration: none;
-	font-family: "Lato", sans-serif;
-	padding: 9px;
-	color: #000;
-	font-size: 14px;
-	letter-spacing: 1px;
-}
 
 .navbar-toggle {
 	display: none;
@@ -623,7 +625,7 @@ footer {
 	}
 	.second-title {
 		font-size: 35px;
-		margin-left: 14px;
+		margin-left: 13px;
 	}
 	.col-35 {
 		padding: 0;
