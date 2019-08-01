@@ -147,6 +147,7 @@ li:hover {
 	font-weight: 500;
 	font-size: 21px;
 	line-height: 28px;
+	letter-spacing: 1px;
 }
 
 @media screen and (max-width: 1600px) {
@@ -179,19 +180,6 @@ li:hover {
 	color: red;
 }
 
-										/* DEPOSIT OFFER */
-
-.deposit {
-	text-align: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 25px;
-	border: 1px solid #e6e6e6;
-	border-radius: 3%;
-	max-width: 600px;
-	max-height: 600px;
-}
 
 										/* SEARCH VAN MENU */
 .search-bar {
@@ -268,17 +256,20 @@ li:hover {
 
 								/* 0% deposit layout */
 .deposit-left {
-	max-width: 100%;
-	height: 100%; 
+	max-width: 50%;
+	height: 80%;
+	margin-top: -25px; 
 	display: inline-block;
-	text-align: left;
-	font-size: 200px;
-	font-weight: 700;
+	font-size: 220px;
+	font-weight: 900;
+
 }
 
 .deposit-right {
+	max-width: 50%;
 	font-size: 50px;
-	font-weight: 700;
+	font-weight: 900;
+	letter-spacing: 3px;
 }
 								/* FLIP BOX EFFECT */
 .flip-box {
@@ -633,14 +624,33 @@ footer {
 	.navbar {
 		background-color: rgba(255, 0, 0, 0.5);
 	}
+	.deposit-left {
+		font-size: 110px;
+		font-weight: 600;
+	}
+	.deposit-right {
+		font-size: 50px
+		font-weight: 600;
+	}
+	
 }
 
 @media screen and (max-width: 600px) {
 	.text-positioning {
 		font-size: 14px;
 	}
-	.column, .deposit-left, .deposit-right {
-		font-size: 55px;
+	.deposit-left {
+		font-size: 100px;
+		font-weight: 500;
+		max-width: 100%;
+		height: 48%;
+		margin-top: 2px;
 	}
-	
+	.deposit-right {
+		font-size: 30px
+		font-weight: 400;
+	}
+	.flip-box-back {
+	font-size: 16.5px;
+	}
 }
