@@ -35,7 +35,7 @@ body {
 	display: block;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1000px) {
 
 .navbar {
 	max-width: 100%;
@@ -157,42 +157,6 @@ body {
 	padding-left: 65px;
 }
 
-@media screen and (max-width: 1300px) {
-	#address-padding {
-		font-size: 15px;
-		font-weight: 600;
-	}
-	.material-icons {
-		display: none;
-	}
-	.position {
-		padding-left: 0;
-	}
-}
-
-@media screen and (max-width: 1100px) {
-	#address-padding {
-		display: none;
-	}
-	.first-title {
-		font-size: 30px;
-	}
-	.second-title {
-		font-size: 25px;
-	}
-}
-
-@media screen and (max-width: 850px) {
-	#address-padding {
-		display: none;
-	}
-	.first-title {
-		font-size: 30px;
-	}
-	.second-title {
-		font-size: 25px;
-	}
-}
 
 								/* END */
 .fa {
@@ -203,6 +167,7 @@ body {
 }
 
 .material-icons {
+	display: block;
 	font-size: 65px;
 	float: left;
 	color: red;
@@ -559,4 +524,92 @@ footer {
   70% {margin-left: -1600px;}
   80% {margin-left: -2800px;}
   90% {margin-left: -2800px;}
+}
+
+@media screen and (max-width: 1300px) {
+	#address-padding {
+		display: none;
+	}
+	.material-icons {
+		display: none;
+	}
+	.position {
+		padding-left: 0;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	#address-padding {
+		display: none;
+	}
+	.col-35 {
+		max-width: 100%
+	}
+
+	.first-title {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.second-title {
+		font-size: 35px;
+	}
+	.tel {
+		padding-top: 25px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#address-padding {
+		display: none;
+	}
+	.col-35 {
+		max-width: 100%
+		padding: 0px;
+	}
+
+	.first-title {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.second-title {
+		font-size: 35px;
+		margin-left: 14px;
+	}
+	.fa-mobile-phone {
+		display: none;
+	}
+
+	.container {
+		max-width: 0, auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+
+	.tel {
+		max-width: 100%;
+		padding: 0;
+		margin: 0;
+		/*position: relative;
+		top: 100px;
+		left*/
+	}
+
+	br {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	#address-padding {
+		display: none;
+	}
+	.first-title {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.second-title {
+		font-size: 35px;
+		margin-left: 14px;
+	}
 }
