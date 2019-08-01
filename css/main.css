@@ -637,7 +637,7 @@ footer {
 
 @media screen and (max-width: 600px) {
 	.text-positioning {
-		font-size: 15px;
+		font-size: 14px;
 	}
 	.column, .deposit-left, .deposit-right {
 		font-size: 55px;
