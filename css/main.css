@@ -258,7 +258,7 @@ li:hover {
 .deposit-left {
 	max-width: 50%;
 	height: 80%;
-	margin-top: -25px; 
+	margin-top: -38px; 
 	display: inline-block;
 	font-size: 220px;
 	font-weight: 900;
@@ -637,7 +637,8 @@ footer {
 
 @media screen and (max-width: 600px) {
 	.text-positioning {
-		font-size: 14px;
+		font-size: 15px;
+		letter-spacing: 1px;
 	}
 	.deposit-left {
 		font-size: 100px;
@@ -652,5 +653,11 @@ footer {
 	}
 	.flip-box-back {
 	font-size: 16.5px;
+	}
+	.bold {
+		font-size: 15px;
+	}
+	.text-positioning {
+		text-align: center;
 	}
 }
