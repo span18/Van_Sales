@@ -25,15 +25,18 @@ li:hover {
 }
 
 .navbar-toggle {							/* HAMBURGER ICON */
+	width: 100%;
+	margin-left: 47%;
 	cursor: pointer;
 	color: #000;
 	font-size: 25px;
+	text-align: center;
 }
-.fa-bars {
-	position: absolute;
-	top: 22%;
-	left: 90%;
+
+fa-bars {
+	text-align: center;
 }
+
 											/* END */
 
 .navbar a {
