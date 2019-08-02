@@ -228,9 +228,9 @@ li:hover {
 	text-align: center;
 }
 
-.column:nth-child(1):hover {
+/*.column:nth-child(1):hover {
 	background-color: white;
-}
+}*/
 
 .text-positioning {
 	text-align: left;
@@ -416,7 +416,7 @@ li:hover {
 }*/
 
 
-								/* MEET THE TEAM */
+								/* MEET THE TEAM, FINANCE ETC */
 
 .positioning {
 	margin: 0, auto;
@@ -479,9 +479,8 @@ li:hover {
     background-repeat: no-repeat;
 }​
 
-								/* GOOGLE MAP */
+									/* GOOGLE MAP */
 .mapouter {
-/*	background-size: cover;*/
 	overflow:hidden;
 	height: 100%;
 	width: 100%;
@@ -493,7 +492,7 @@ li:hover {
 	width: 100%;
 }
 
-								/* end */
+									/* END */
 footer {
 	width: 100%;
 	height: 300px;
@@ -537,6 +536,8 @@ footer {
   80% {margin-left: -2800px;}
   90% {margin-left: -2800px;}
 }
+
+									/* RESPONSIVE SCREEN */
 
 @media screen and (max-width: 1300px) {
 	#address-padding {
