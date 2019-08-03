@@ -135,16 +135,21 @@ fa-bars {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
-	font-size: 21px;
+	font-size: 22px;
 	line-height: 30px;
 	display: block;
 	padding-bottom: 35px;
-	margin-left: 200px;
+	margin-left: 190px;
+}
+
+.call-us {
+	font-size: 25px;
+	letter-spacing: 0.5px;
 }
 
 #address-padding {
 	display: block;
-	margin-left: 200px;
+	margin-left: 290px;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
@@ -510,7 +515,7 @@ fa-bars {
 
 									/* RESPONSIVE SCREEN */
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
 	#address-padding {
 		display: none;
 	}
@@ -619,7 +624,9 @@ fa-bars {
 		font-size: 50px
 		font-weight: 600;
 	}
-	
+	.call-us {
+		font-size: 22.5px;
+	}	
 }
 
 @media screen and (max-width: 600px) {
