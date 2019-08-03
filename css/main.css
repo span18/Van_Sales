@@ -242,6 +242,10 @@ fa-bars {
   clear: both;
 }
 
+.dropdown-content {
+	display: none;
+}
+
 @media screen and (max-width: 1200px) {
 	.search-row, .search-column, {
 		width: 90%;
