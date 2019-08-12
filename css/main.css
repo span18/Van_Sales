@@ -29,17 +29,17 @@ body {
     }
 
     #tclose{
-      position:absolute;
-      background:black;
-      color:white;
+      position: absolute;
+      background: black;
+      color: white;
       right:-15px;
       top:-15px;
       border-radius:50%;
-      width:30px;
-      height:30px;
-      line-height:30px;
-      text-align:center;
-      font-size:8px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      font-size: 12px;
       font-weight:bold;
       font-family:'Arial Black', Arial, sans-serif;
       cursor:pointer;
