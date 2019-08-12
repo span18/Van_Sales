@@ -53,6 +53,7 @@ body {
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		color: red;
+		line-height: 1.5;
 	}
 
     .pop-up {
@@ -73,6 +74,7 @@ body {
     	}
     	.pop-up {
     		font-size: 15px;
+    		padding-top: 5px;
     	}
     }
 
