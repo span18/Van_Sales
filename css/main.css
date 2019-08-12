@@ -68,6 +68,15 @@ body {
     		top: 60%;
     		left: 10%;
     		width: 80%;
+    		-webkit-margin-before:
+			-webkit-margin-end:
+			-webkit-margin-after:
+			-webkit-margin-start:
+
+			-webkit-padding-before:
+			-webkit-padding-end:
+			-webkit-padding-after:
+			-webkit-padding-start:
     	}
     	.pop-up-title {
     		font-size: 15px;
