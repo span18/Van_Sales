@@ -759,6 +759,77 @@ fa-bars {
 	}
 }
 
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Caption text */
+.text-one {
+  color: orange;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 8px 12px;
+  float: left;
+}
+
+.text-two {
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 8px 12px;
+  position: absolute;
+  left: 70%;
+  bottom: 15%;
+  width: 100%;
+}
+
+.text-three {
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 800;
+  padding: 8px 12px;
+  position: relative;
+  left: 70%;
+  bottom: 15%;
+  width: 100%;
+}
+.dot {
+  display: none;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .2} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 750px) {
+  .text-one, .text-two, .text-three {
+  	font-size: 11px
+  }
+}
+
+
 footer {									/* FOOTER */
 	width: 100%;
 	padding: 30px;
