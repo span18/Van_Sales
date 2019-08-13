@@ -772,7 +772,10 @@ fa-bars {
   font-size: 25px;
   font-weight: 800;
   padding: 8px 12px;
-  float: left;
+  position: absolute;
+  top: 45%;
+  margin-left: 45%;
+
 }
 
 .text-two {
@@ -780,10 +783,8 @@ fa-bars {
   font-size: 25px;
   font-weight: 800;
   padding: 8px 12px;
-  position: absolute;
-  left: 70%;
-  bottom: 15%;
-  width: 100%;
+  margin-left: 70%;
+  margin-bottom: 15%;
 }
 
 .text-three {
@@ -791,11 +792,10 @@ fa-bars {
   font-size: 25px;
   font-weight: 800;
   padding: 8px 12px;
-  position: relative;
-  left: 70%;
-  bottom: 15%;
-  width: 100%;
+  margin-left: 70%;
+  margin-bottom: 15%;
 }
+
 .dot {
   display: none;
 }
