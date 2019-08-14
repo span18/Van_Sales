@@ -833,7 +833,7 @@ fa-bars {
 }
 
 .active {
-  background-color: #717171;
+  background-color: none;
 }
 
 /* Fading animation */
