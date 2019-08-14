@@ -858,9 +858,9 @@ fa-bars {
 
 @media only screen and (max-width: 600px) {
   .text-two, .text-three {
-  	font-size: 15px;
-  	/*height: 15px;*/
-  	/*background-color: red;*/
+  	font-size: 18px;
+  	max-height: 17px;
+  	padding: 5px 0px 20px 0px;
   }
 }
 
