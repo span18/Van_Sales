@@ -7,7 +7,11 @@ body {
 	margin: auto;
 }
 
-    #thover{
+a:hover {
+	color: inherit;
+}
+									/* MAIN POP UP BOX */
+    /*#thover{
       position:fixed;
       background: rgba(230, 230, 230, 0.6);
       width:100%;
@@ -23,7 +27,7 @@ body {
       background-color: white;
       border-radius:5px;
       padding: 5px;
-      margin-top:-150px; /* height/2 + padding-top */
+      margin-top:-150px; 
       text-align:center;
       box-shadow:0 0 10px 0 #000;
     }
@@ -92,7 +96,8 @@ body {
     		font-size: 15px;
     		padding-top: 5px;
     	}
-    }
+    }*/
+										/* END */
 
 .navbar {
 	/*border-bottom: 5px solid rgba(255, 0, 0, 0.5);*/
@@ -115,7 +120,7 @@ li:hover {
 
 .navbar-toggle {							/* HAMBURGER ICON */
 	width: 100%;
-	margin-left: 47%;
+	margin-left: 49%;
 	cursor: pointer;
 	color: #000;
 	font-size: 25px;
@@ -190,7 +195,6 @@ fa-bars {
 	flex: 33%;
 	max-width: 33%;
 	padding-top: 10px;
-	padding-right: 25px;
 	margin-left: 0;
 	display: block;
 	text-align: center;
@@ -235,11 +239,12 @@ fa-bars {
 .call-us {
 	font-size: 25px;
 	letter-spacing: 0.5px;
+	border-bottom: none;
 }
 
 #address-padding {
 	display: block;
-	margin-left: 290px;
+	margin-left: 280px;
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
@@ -272,7 +277,6 @@ fa-bars {
 }
 
 .material-icons {
-	display: block;
 	font-size: 65px;
 	float: left;
 	color: darkgrey;
@@ -411,7 +415,7 @@ fa-bars {
 								/* FLIP BOX EFFECT */
 .flip-box {
 	/*background-color: rgba(255, 0, 0, 0.4);*/
-	background-color: rgba(230, 230, 230);
+	background-color: darkred;
 	max-width: 100%;
 	height: 100%;
 	border: 1px solid #f1f1f1;
@@ -442,7 +446,7 @@ fa-bars {
 
 .flip-box-front {
   /*background-color: rgba(255, 0, 0, 0.4);*/
-  background-color: rgba(230, 230, 230, 0.6);
+  background-color: red;
   color: white;
 }
 
@@ -457,6 +461,10 @@ fa-bars {
 
 .flip-box-back a {
 	font-weight: 700;
+}
+
+.call {
+	color: red !important;
 }
 								/* SHAKE DISCOUNT ELEMENT */
 #shk {
@@ -633,14 +641,6 @@ fa-bars {
 	.col-35 {
 		max-width: 100%
 	}
-
-	.first-title {
-		font-size: 50px;
-		margin-bottom: 10px;
-	}
-	.second-title {
-		font-size: 35px;
-	}
 	.tel {
 		padding-top: 25px;
 	}
@@ -654,7 +654,6 @@ fa-bars {
 		max-width: 100%
 		padding: 0px;
 	}
-
 	.first-title {
 		font-size: 50px;
 		margin-bottom: 10px;
@@ -666,23 +665,18 @@ fa-bars {
 	.fa-mobile-phone {
 		display: none;
 	}
-
 	.container {
 		max-width: 0, auto;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-
 	.tel {
 		max-width: 100%;
 		padding: 0;
 		margin: 0;
-		/*position: relative;
-		top: 100px;
-		left*/
+		align-items: center;
 	}
-
 	br {
 		display: none;
 	}
@@ -693,6 +687,9 @@ fa-bars {
 	.column {
 		width: 100%;
 		margin: 0px 0px 25px 0px;
+	}
+	.nav-links {
+		border-bottom: none;
 	}
 
 }
@@ -712,7 +709,7 @@ fa-bars {
 	.col-35 {
 		padding: 0;
 	}
-	.navbar {
+	.navbar{
 		background-color: rgba(204, 204, 204, 0.6);
 	}
 	.deposit-left {
@@ -725,7 +722,7 @@ fa-bars {
 	}
 	.call-us {
 		font-size: 22.5px;
-	}	
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -768,6 +765,11 @@ fa-bars {
   color: white;
   text-decoration: none;
   /*margin: auto;*/
+  border-bottom: 3px solid white;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 /* Caption text */
@@ -855,10 +857,28 @@ fa-bars {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1230px) {
   .text-one {
-  	font-size: 15px;
+  	font-size: 28px;
   	line-height: 25px;
+  	padding: 5px 0px 5px 5px;
+
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  .text-one {
+  	font-size: 22px;
+  	line-height: 25px;
+  	padding: 5px 0px 5px 5px;
+
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .text-one {
+  	font-size: 17px;
+  	line-height: 35px;
   	padding: 5px 0px 5px 5px;
 
   }
@@ -876,6 +896,7 @@ fa-bars {
 
 footer {									/* FOOTER */
 	width: 100%;
+	color: darkgrey;
 	padding: 30px;
 	/*background-color: rgb(255, 0, 0, 0.5);*/
 	background-color: rgba(230, 230, 230, 0.6);
@@ -886,7 +907,7 @@ footer {									/* FOOTER */
 }
 
 footer a {
-	color: white;
+	color: inherit;
 	font-size: 20px;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -896,7 +917,11 @@ footer a {
 	padding-left: 25px;
 	border-right: 2px solid #fff;
 	list-style-type: none;
+	border-bottom: none;
+}
 
+footer a:hover {
+	text-decoration: none;
 }
 
 @media screen and (max-width: 450px) {
