@@ -893,15 +893,18 @@ a:hover {
   .text-two, .text-three {
   	font-size: 18px;
   	max-height: 17px;
+  	width: auto;
   	padding: 5px 0px 20px 5px;
   	color: inherit;
-  	width: 100%;
   }
   .text-one {
   	font-size: 17px;
   	font-weight: 100;
   	position: absolute;
   	bottom: 2%;
+  }
+  .remove {
+  	display: none;
   }
 }
 
