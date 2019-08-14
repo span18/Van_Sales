@@ -397,8 +397,8 @@ fa-bars {
 
 								/* 0% deposit layout */
 .deposit-left {
-	max-width: 50%;
-	height: 80%;
+	max-width: 100%;
+	height: 60%;
 	margin-top: -38px; 
 	display: inline-block;
 	font-size: 220px;
@@ -407,7 +407,8 @@ fa-bars {
 }
 
 .deposit-right {
-	max-width: 50%;
+	max-width: 100%;
+	height: 40%;
 	font-size: 50px;
 	font-weight: 900;
 	letter-spacing: 3px;
@@ -421,6 +422,8 @@ fa-bars {
 	border: 1px solid #f1f1f1;
 	perspective: 1000px;
 	cursor: pointer;
+	position: relative;
+
 }
 
 .flip-box-inner {
@@ -713,7 +716,7 @@ fa-bars {
 		background-color: rgba(204, 204, 204, 0.6);
 	}
 	.deposit-left {
-		font-size: 110px;
+		font-size: 200px;
 		font-weight: 600;
 	}
 	.deposit-right {
@@ -766,6 +769,7 @@ fa-bars {
   text-decoration: none;
   /*margin: auto;*/
   border-bottom: 3px solid white;
+  font-weight: 100;
 }
 
 a:hover {
@@ -779,7 +783,7 @@ a:hover {
   border-radius: 0 10px 10px 0;
   height: auto;
   font-family: 'Anton', sans-serif;
-  font-weight: 700;
+ /* font-weight: 700;*/
   text-transform: uppercase;
   font-size: 35px;
   letter-spacing: 2.5px;
@@ -798,7 +802,7 @@ a:hover {
   border-radius: 0 10px 10px 0;
   height: auto;
   font-family: 'Anton', sans-serif;
-  font-weight: 700;
+  /*font-weight: 700;*/
   text-transform: uppercase;
   font-size: 35px;
   letter-spacing: 2.5px;
@@ -817,7 +821,7 @@ a:hover {
   border-radius: 0 10px 10px 0;
   height: auto;
   font-family: 'Anton', sans-serif;
-  font-weight: 700;
+ /* font-weight: 700;*/
   text-transform: uppercase;
   font-size: 35px;
   letter-spacing: 2.5px;
@@ -877,7 +881,7 @@ a:hover {
 
 @media only screen and (max-width: 750px) {
   .text-one {
-  	font-size: 17px;
+  	font-size: 18px;
   	line-height: 35px;
   	padding: 5px 0px 5px 5px;
 
@@ -885,13 +889,18 @@ a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .text-two, .text-three, .slideshow-container, {
+  .text-two, .text-three {
   	font-size: 18px;
   	max-height: 17px;
   	padding: 5px 0px 20px 5px;
   	color: inherit;
   	width: 100%;
-  	height: 350px;
+  }
+  .text-one {
+  	font-size: 17px;
+  	font-weight: 100;
+  	position: absolute;
+  	bottom: 2%;
   }
 }
 
