@@ -5,6 +5,7 @@
 body {
 	/*background-color: none;*/
 	margin: auto;
+	width: 100%;
 }
 
 a:hover {
